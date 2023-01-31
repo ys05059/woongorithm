@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3fe5dcff-7500-4d99-87f9-69aeb07bdee3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Coding_Test_Kotilin.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/BJ_14501_퇴사.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/BJ_15686_치킨배달.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/BJ_1966_Printer Queue.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/BinarySearch/BJ_14575_뒤풀이.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/BinarySearch/BJ_2343_기타레슨.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/DynamicProgramming/BJ_9009_피보나치.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/GraphSearch/BJ_12852_1로 만들기 2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/GraphSearch/BJ_15900_나무탈출.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/GraphSearch/BJ_3184_양.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/GraphSearch/BJ_5014_스타트링크.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Submit_Test.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Test.kt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Class" />
+        <option value="Kotlin File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2KHQGSL1AHxEcQKQ4Iz9C8YAmAU" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/ys050/Dropbox/내 PC (LAPTOP-60DNJ58Q)/Desktop/문서/자습/Coding_Test/Coding_Test_Kotilin&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ys050\Dropbox\내 PC (LAPTOP-60DNJ58Q)\Desktop\문서\자습\Coding_Test\Coding_Test_Kotilin\src\main\kotlin\GraphSearch" />
+      <recent name="C:\Users\ys050\Dropbox\내 PC (LAPTOP-60DNJ58Q)\Desktop\문서\자습\Coding_Test\Coding_Test_Kotilin\src\main\kotlin\DynamicProgramming" />
+      <recent name="C:\Users\ys050\Dropbox\내 PC (LAPTOP-60DNJ58Q)\Desktop\문서\자습\Coding_Test\Coding_Test_Kotilin\src\main\kotlin\BinarySearch" />
+      <recent name="C:\Users\ys050\Dropbox\내 PC (LAPTOP-60DNJ58Q)\Desktop\문서\자습\Coding_Test\Coding_Test_Kotilin\src\main\kotlin" />
+      <recent name="C:\Users\ys050\Dropbox\내 PC (LAPTOP-60DNJ58Q)\Desktop\문서\자습\Coding_Test\Coding_Test_Kotilin\src\main\Binary Search" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Kotlin.BJ_14575_뒤풀이Kt">
+    <configuration name="BJ_14575_뒤풀이Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BinarySearch.BJ_14575_뒤풀이Kt" />
+      <module name="Coding_Test_Kotilin" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BJ_15686_치킨배달Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BJ_15686_치킨배달Kt" />
+      <module name="Coding_Test_Kotilin" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BJ_2343_기타레슨Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BinarySearch.BJ_2343_기타레슨Kt" />
+      <module name="Coding_Test_Kotilin" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BJ_5014_스타트링크Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GraphSearch.BJ_5014_스타트링크Kt" />
+      <module name="Coding_Test_Kotilin" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BJ_9009_피보나치Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DynamicProgramming.BJ_9009_피보나치Kt" />
+      <module name="Coding_Test_Kotilin" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Kotlin.BJ_14575_뒤풀이Kt" />
+        <item itemvalue="Kotlin.BJ_2343_기타레슨Kt" />
+        <item itemvalue="Kotlin.BJ_5014_스타트링크Kt" />
+        <item itemvalue="Kotlin.BJ_15686_치킨배달Kt" />
+        <item itemvalue="Kotlin.BJ_9009_피보나치Kt" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3fe5dcff-7500-4d99-87f9-69aeb07bdee3" name="Changes" comment="" />
+      <created>1673628935375</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1673628935375</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
