@@ -15,7 +15,7 @@ fun main(){
 }
 
 /* 우선순위 큐 풀이 시도
-fun BinarySearch.GraphSearch.BinarySearch.GraphSearch.GraphSearch.DynamicProgramming.GraphSearch.main() {
+fun BinarySearch.GraphSearch.BinarySearch.GraphSearch.GraphSearch.DynamicProgramming.GraphSearch.BruteForce.DynamicProgramming.main() {
     val br = BufferedReader(InputStreamReader(System.`in`))
     val bw = BufferedWriter(OutputStreamWriter(System.out))
 
