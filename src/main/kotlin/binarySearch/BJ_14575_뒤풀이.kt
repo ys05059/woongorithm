@@ -1,4 +1,4 @@
-package BinarySearch
+package binarySearch
 
 import java.io.BufferedReader
 import java.io.BufferedWriter

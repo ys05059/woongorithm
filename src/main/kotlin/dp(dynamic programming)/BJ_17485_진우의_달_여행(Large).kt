@@ -1,4 +1,4 @@
-package DynamicProgramming
+package `dp(dynamic programming)`
 
 import java.io.BufferedReader
 import java.io.BufferedWriter
