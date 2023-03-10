@@ -1,10 +1,3 @@
-package twoPointer
-
-import java.io.BufferedReader
-import java.io.BufferedWriter
-import java.io.InputStreamReader
-import java.io.OutputStreamWriter
-
 /*
 * 언제 포인터를 넘길 것인가? 그 조건 정하는게 관건이다
 * 1. 포인터 2개를 어디서 시작시킬 것인가?
@@ -15,57 +8,32 @@ import java.io.OutputStreamWriter
 * 이 방식은 리스트에 값은 있는데 체크한 값이 리스트안에 없는 애들일 경우 양쪽에서 어느만큼 줄여야할 지 알 수가 없음. 이 방식은 O(n)도 아님.
 * O(log n)을 할 생각인가..? 잘못된 생각법이다
 * */
-lateinit var l : List<Int>
-lateinit var countMap : MutableMap<Int,Int>
+package twoPointer
+
+import java.io.BufferedReader
+import java.io.BufferedWriter
+import java.io.InputStreamReader
+import java.io.OutputStreamWriter
+
 fun main() {
     val br = BufferedReader(InputStreamReader(System.`in`))
     val bw = BufferedWriter(OutputStreamWriter(System.out))
 
     val (n,k) = br.readLine()!!.split(" ").map { it.toInt() }
-    l = br.readLine()!!.split(" ").map { it.toInt() }
-    countMap = mutableMapOf()
-
-    var p1 =0
-    var p2 = n-1
-
-
-    l.forEach { item ->
-        if(countMap.containsKey(item)){
-            countMap[item] = countMap[item]!! + 1
-        }else{
-            countMap[item] = 1
+    val l = br.readLine()!!.split(" ").map { it.toInt() }
+    val countList = IntArray(100001)
+    var answer = 1
+    var start = 0
+    for(end in 0 until n){
+        while(countList[l[end]] == k){
+            countList[l[start++]] -= 1
         }
+        countList[l[end]] += 1
+        answer = answer.coerceAtLeast(end-start+1)
     }
-    println(countMap.toString())
-
-    countMap.filterValues { it <= k }
-        .keys.forEach{key ->
-            countMap.remove(key)
-    }
-    println(countMap.toString())
-
-    var leftTurn = true
-    while(countMap.isNotEmpty()){
-        if(leftTurn){
-            updateCountMap(p1,k)
-            p1++
-        }else{
-            updateCountMap(p2,k)
-            p2--
-        }
-        leftTurn = !leftTurn
-    }
-
-    println(p2-p1)
-}
-
-fun updateCountMap(p : Int, k : Int){
-    if(countMap.containsKey(l[p])) {
-        countMap[l[p]] = countMap[l[p]]!! - 1
-        if(countMap[l[p]]!! <= k){
-            countMap.remove(l[p])
-        }
-    }
+    bw.write(answer.toString())
+    bw.flush()
+    bw.close()
 }
 
 // 핵심 늘 비교해야함 그 순간의 가장 큰지를 확인하면서 저장해둬야함
