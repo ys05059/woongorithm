@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3fe5dcff-7500-4d99-87f9-69aeb07bdee3" name="Changes" comment="BJ_20922 finished">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/dp(dynamic programming)/BJ_16400_소수화폐.kt" afterDir="false" />
+    <list default="true" id="3fe5dcff-7500-4d99-87f9-69aeb07bdee3" name="Changes" comment="BJ_16400 finished &#10;- tony's daily 3/11">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/BJ_1620_나는야포켓몬마스터이다솜.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,7 +53,7 @@
       <recent name="C:\Users\ys050\Dropbox\내 PC (LAPTOP-60DNJ58Q)\Desktop\문서\자습\Coding_Test\Coding_Test_Kotilin\src\main\kotlin" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Kotlin.BJ_1620_나는야포켓몬마스터이다솜Kt">
     <configuration name="BJ_11728_배열합치기Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="twoPointer.BJ_11728_배열합치기Kt" />
       <module name="Coding_Test_Kotilin" />
@@ -63,6 +63,13 @@
     </configuration>
     <configuration name="BJ_14575_뒤풀이Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="binarySearch.BJ_14575_뒤풀이Kt" />
+      <module name="Coding_Test_Kotilin" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BJ_1620_나는야포켓몬마스터이다솜Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BJ_1620_나는야포켓몬마스터이다솜Kt" />
       <module name="Coding_Test_Kotilin" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -82,20 +89,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BJ_2343_기타레슨Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="binarySearch.BJ_2343_기타레슨Kt" />
-      <module name="Coding_Test_Kotilin" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.BJ_1620_나는야포켓몬마스터이다솜Kt" />
         <item itemvalue="Kotlin.BJ_20922_겹치는건싫어Kt" />
         <item itemvalue="Kotlin.BJ_11728_배열합치기Kt" />
         <item itemvalue="Kotlin.BJ_17484_진우의_달_여행_Small_Kt" />
         <item itemvalue="Kotlin.BJ_14575_뒤풀이Kt" />
-        <item itemvalue="Kotlin.BJ_2343_기타레슨Kt" />
       </list>
     </recent_temporary>
   </component>
@@ -143,7 +143,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678427211312</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="BJ_16400 finished &#10;- tony's daily 3/11">
+      <created>1678517431418</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1678517431418</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -152,7 +159,8 @@
     <MESSAGE value="solve BJ_11728" />
     <MESSAGE value="BJ_20922 Wrong try 1" />
     <MESSAGE value="BJ_20922 finished" />
-    <option name="LAST_COMMIT_MESSAGE" value="BJ_20922 finished" />
+    <MESSAGE value="BJ_16400 finished &#10;- tony's daily 3/11" />
+    <option name="LAST_COMMIT_MESSAGE" value="BJ_16400 finished &#10;- tony's daily 3/11" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
