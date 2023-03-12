@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3fe5dcff-7500-4d99-87f9-69aeb07bdee3" name="Changes" comment="BJ_16400 finished &#10;- tony's daily 3/11">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/BJ_1620_나는야포켓몬마스터이다솜.kt" afterDir="false" />
+    <list default="true" id="3fe5dcff-7500-4d99-87f9-69aeb07bdee3" name="Changes" comment="BJ_1620 finished&#10;- tony's today 3/11">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/BJ_1622_공통순열.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,7 +53,7 @@
       <recent name="C:\Users\ys050\Dropbox\내 PC (LAPTOP-60DNJ58Q)\Desktop\문서\자습\Coding_Test\Coding_Test_Kotilin\src\main\kotlin" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.BJ_1620_나는야포켓몬마스터이다솜Kt">
+  <component name="RunManager" selected="Kotlin.BJ_1622_공통순열Kt">
     <configuration name="BJ_11728_배열합치기Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="twoPointer.BJ_11728_배열합치기Kt" />
       <module name="Coding_Test_Kotilin" />
@@ -61,15 +61,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BJ_14575_뒤풀이Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="binarySearch.BJ_14575_뒤풀이Kt" />
+    <configuration name="BJ_1620_나는야포켓몬마스터이다솜Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BJ_1620_나는야포켓몬마스터이다솜Kt" />
       <module name="Coding_Test_Kotilin" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BJ_1620_나는야포켓몬마스터이다솜Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BJ_1620_나는야포켓몬마스터이다솜Kt" />
+    <configuration name="BJ_1622_공통순열Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BJ_1622_공통순열Kt" />
       <module name="Coding_Test_Kotilin" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -91,11 +91,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.BJ_1622_공통순열Kt" />
         <item itemvalue="Kotlin.BJ_1620_나는야포켓몬마스터이다솜Kt" />
         <item itemvalue="Kotlin.BJ_20922_겹치는건싫어Kt" />
         <item itemvalue="Kotlin.BJ_11728_배열합치기Kt" />
         <item itemvalue="Kotlin.BJ_17484_진우의_달_여행_Small_Kt" />
-        <item itemvalue="Kotlin.BJ_14575_뒤풀이Kt" />
       </list>
     </recent_temporary>
   </component>
@@ -150,7 +150,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678517431418</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="BJ_1620 finished&#10;- tony's today 3/11">
+      <created>1678521101601</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1678521101601</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -160,7 +167,8 @@
     <MESSAGE value="BJ_20922 Wrong try 1" />
     <MESSAGE value="BJ_20922 finished" />
     <MESSAGE value="BJ_16400 finished &#10;- tony's daily 3/11" />
-    <option name="LAST_COMMIT_MESSAGE" value="BJ_16400 finished &#10;- tony's daily 3/11" />
+    <MESSAGE value="BJ_1620 finished&#10;- tony's today 3/11" />
+    <option name="LAST_COMMIT_MESSAGE" value="BJ_1620 finished&#10;- tony's today 3/11" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
