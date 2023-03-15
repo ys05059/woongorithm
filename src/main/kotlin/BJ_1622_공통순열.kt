@@ -2,7 +2,6 @@ import java.io.BufferedReader
 import java.io.BufferedWriter
 import java.io.InputStreamReader
 import java.io.OutputStreamWriter
-import java.lang.Exception
 import kotlin.math.min
 
 fun main() {
@@ -29,8 +28,6 @@ fun main() {
             result += (i + 97).toChar().toString().repeat(min(aList[i], bList[i]))
         }
         bw.write(result+"\n")
-
-//        println(result)
     }
     bw.flush()
 }

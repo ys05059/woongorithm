@@ -15,14 +15,19 @@ fun main() {
         NameMap[input] = it + 1
         NumMap[it + 1]= input
     }
-    val numberPattern = "\\d+".toRegex()
-    val textPattern = "\\D+".toRegex()
-    repeat(m) {
+//    val numberPattern = "\\d+".toRegex()
+//    val textPattern = "\\D+".toRegex()
+//    repeat(m) {
+//        val q = br.readLine()!!
+//        when {
+//            numberPattern.matches(q) -> bw.write("${NumMap[q.toInt()]}\n")
+//            textPattern.matches(q) -> bw.write(NameMap[q].toString() +"\n")
+//        }
+//    }
+    repeat(m){
         val q = br.readLine()!!
-        when {
-            numberPattern.matches(q) -> bw.write("${NumMap[q.toInt()]}\n")
-            textPattern.matches(q) -> bw.write(NameMap[q].toString() +"\n")
-        }
+        if(q[0].isDigit()) bw.write("${NumMap[q.toInt()]}\n")
+        else bw.write(NameMap[q].toString() +"\n")
     }
 
     bw.flush()
