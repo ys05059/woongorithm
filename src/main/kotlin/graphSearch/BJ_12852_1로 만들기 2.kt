@@ -1,20 +1,20 @@
-package GraphSearch
+package graphSearch
 
 import java.io.BufferedReader
 import java.io.BufferedWriter
 import java.io.InputStreamReader
 import java.io.OutputStreamWriter
 
-//private lateinit var graph : IntArray
+//private lateinit var BruteForce.getGraph : IntArray
 private lateinit var visited : IntArray
 fun main() {
     val br = BufferedReader(InputStreamReader(System.`in`))
     val bw = BufferedWriter(OutputStreamWriter(System.out))
 
     val n  = br.readLine().toInt()
-//    graph = IntArray(n+1){it}
+//    BruteForce.getGraph = IntArray(n+1){it}
     visited = IntArray(n+1)
-//    println("map ${graph.contentToString()}")
+//    println("map ${BruteForce.getGraph.contentToString()}")
 
     bfs(n)
 //    println("GraphSearch.visited : ${GraphSearch.visited.contentToString()}")

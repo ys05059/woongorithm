@@ -4,29 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3fe5dcff-7500-4d99-87f9-69aeb07bdee3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Coding_Test_Kotilin.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/BJ_14501_퇴사.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/BJ_15686_치킨배달.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/BJ_1966_Printer Queue.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/BinarySearch/BJ_14575_뒤풀이.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/BinarySearch/BJ_2343_기타레슨.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/DynamicProgramming/BJ_9009_피보나치.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/GraphSearch/BJ_12852_1로 만들기 2.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/GraphSearch/BJ_15900_나무탈출.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/GraphSearch/BJ_3184_양.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/GraphSearch/BJ_5014_스타트링크.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Submit_Test.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Test.kt" afterDir="false" />
+    <list default="true" id="3fe5dcff-7500-4d99-87f9-69aeb07bdee3" name="Changes" comment="BJ_1620 finished&#10;- tony's today 3/11">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/BJ_1622_공통순열.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,50 +39,51 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/ys050/Dropbox/내 PC (LAPTOP-60DNJ58Q)/Desktop/문서/자습/Coding_Test/Coding_Test_Kotilin&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\ys050\Dropbox\내 PC (LAPTOP-60DNJ58Q)\Desktop\문서\자습\Coding_Test\Coding_Test_Kotilin\src\main\kotlin\GraphSearch" />
       <recent name="C:\Users\ys050\Dropbox\내 PC (LAPTOP-60DNJ58Q)\Desktop\문서\자습\Coding_Test\Coding_Test_Kotilin\src\main\kotlin\DynamicProgramming" />
+      <recent name="C:\Users\ys050\Dropbox\내 PC (LAPTOP-60DNJ58Q)\Desktop\문서\자습\Coding_Test\Coding_Test_Kotilin\src\main\kotlin\BruteForce" />
+      <recent name="C:\Users\ys050\Dropbox\내 PC (LAPTOP-60DNJ58Q)\Desktop\문서\자습\Coding_Test\Coding_Test_Kotilin\src\main\kotlin\GraphSearch" />
       <recent name="C:\Users\ys050\Dropbox\내 PC (LAPTOP-60DNJ58Q)\Desktop\문서\자습\Coding_Test\Coding_Test_Kotilin\src\main\kotlin\BinarySearch" />
       <recent name="C:\Users\ys050\Dropbox\내 PC (LAPTOP-60DNJ58Q)\Desktop\문서\자습\Coding_Test\Coding_Test_Kotilin\src\main\kotlin" />
-      <recent name="C:\Users\ys050\Dropbox\내 PC (LAPTOP-60DNJ58Q)\Desktop\문서\자습\Coding_Test\Coding_Test_Kotilin\src\main\Binary Search" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.BJ_14575_뒤풀이Kt">
-    <configuration name="BJ_14575_뒤풀이Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BinarySearch.BJ_14575_뒤풀이Kt" />
+  <component name="RunManager" selected="Kotlin.BJ_1622_공통순열Kt">
+    <configuration name="BJ_11728_배열합치기Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="twoPointer.BJ_11728_배열합치기Kt" />
       <module name="Coding_Test_Kotilin" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BJ_15686_치킨배달Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BJ_15686_치킨배달Kt" />
+    <configuration name="BJ_1620_나는야포켓몬마스터이다솜Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BJ_1620_나는야포켓몬마스터이다솜Kt" />
       <module name="Coding_Test_Kotilin" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BJ_2343_기타레슨Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BinarySearch.BJ_2343_기타레슨Kt" />
+    <configuration name="BJ_1622_공통순열Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BJ_1622_공통순열Kt" />
       <module name="Coding_Test_Kotilin" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BJ_5014_스타트링크Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="GraphSearch.BJ_5014_스타트링크Kt" />
+    <configuration name="BJ_17484_진우의_달_여행_Small_Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bruteForce.BJ_17484_진우의_달_여행_Small_Kt" />
       <module name="Coding_Test_Kotilin" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BJ_9009_피보나치Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DynamicProgramming.BJ_9009_피보나치Kt" />
+    <configuration name="BJ_20922_겹치는건싫어Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="twoPointer.BJ_20922_겹치는건싫어Kt" />
       <module name="Coding_Test_Kotilin" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -110,11 +91,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.BJ_14575_뒤풀이Kt" />
-        <item itemvalue="Kotlin.BJ_2343_기타레슨Kt" />
-        <item itemvalue="Kotlin.BJ_5014_스타트링크Kt" />
-        <item itemvalue="Kotlin.BJ_15686_치킨배달Kt" />
-        <item itemvalue="Kotlin.BJ_9009_피보나치Kt" />
+        <item itemvalue="Kotlin.BJ_1622_공통순열Kt" />
+        <item itemvalue="Kotlin.BJ_1620_나는야포켓몬마스터이다솜Kt" />
+        <item itemvalue="Kotlin.BJ_20922_겹치는건싫어Kt" />
+        <item itemvalue="Kotlin.BJ_11728_배열합치기Kt" />
+        <item itemvalue="Kotlin.BJ_17484_진우의_달_여행_Small_Kt" />
       </list>
     </recent_temporary>
   </component>
@@ -127,7 +108,67 @@
       <option name="presentableId" value="Default" />
       <updated>1673628935375</updated>
     </task>
+    <task id="LOCAL-00001" summary="밀린 알고리즘 문제 올리기">
+      <created>1678350199809</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1678350199809</updated>
+    </task>
+    <task id="LOCAL-00002" summary="폴더 구조 수정">
+      <created>1678425090932</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1678425090932</updated>
+    </task>
+    <task id="LOCAL-00003" summary="solve BJ_11728">
+      <created>1678425130242</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1678425130242</updated>
+    </task>
+    <task id="LOCAL-00004" summary="BJ_20922 Wrong try 1">
+      <created>1678425209268</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1678425209268</updated>
+    </task>
+    <task id="LOCAL-00005" summary="BJ_20922 finished">
+      <created>1678427211312</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1678427211312</updated>
+    </task>
+    <task id="LOCAL-00006" summary="BJ_16400 finished &#10;- tony's daily 3/11">
+      <created>1678517431418</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1678517431418</updated>
+    </task>
+    <task id="LOCAL-00007" summary="BJ_1620 finished&#10;- tony's today 3/11">
+      <created>1678521101601</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1678521101601</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="밀린 알고리즘 문제 올리기" />
+    <MESSAGE value="폴더 구조 수정" />
+    <MESSAGE value="solve BJ_11728" />
+    <MESSAGE value="BJ_20922 Wrong try 1" />
+    <MESSAGE value="BJ_20922 finished" />
+    <MESSAGE value="BJ_16400 finished &#10;- tony's daily 3/11" />
+    <MESSAGE value="BJ_1620 finished&#10;- tony's today 3/11" />
+    <option name="LAST_COMMIT_MESSAGE" value="BJ_1620 finished&#10;- tony's today 3/11" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

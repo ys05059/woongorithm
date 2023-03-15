@@ -1,4 +1,4 @@
-package GraphSearch
+package graphSearch
 
 import java.io.BufferedReader
 import java.io.BufferedWriter
@@ -14,7 +14,7 @@ fun main() {
     val br = BufferedReader(InputStreamReader(System.`in`))
     val bw = BufferedWriter(OutputStreamWriter(System.out))
 
-    // initialize graph
+    // initialize BruteForce.getGraph
     val (n,m) = br.readLine().split(" ").map { it.toInt()}
     map = Array(n){
         br.readLine().toCharArray()
@@ -27,7 +27,7 @@ fun main() {
         }
     }
 
-    // test initialized graph
+    // test initialized BruteForce.getGraph
     for(i in map.indices){    // indices는 0부터 리스트의 크기까지를 0..size 이런식으로 나타내주는 메소드
         println(map[i].contentToString())
     }

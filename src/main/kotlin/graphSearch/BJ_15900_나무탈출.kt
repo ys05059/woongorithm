@@ -1,4 +1,4 @@
-package GraphSearch
+package graphSearch
 
 import java.io.BufferedReader
 import java.io.BufferedWriter
@@ -25,7 +25,7 @@ fun main() {
 
     // 알고리즘 -> 결국 dfs하면서 모든 리프노드까지의 깊이 전부 더한 값을 구해서 홀수이면 승리, 짝수이면 패배
     // 리프를 전부 찾아야한다.
-    println("GraphSearch.graph : " + graph.contentToString())
+    println("GraphSearch.BruteForce.getGraph : " + graph.contentToString())
     println("GraphSearch.visited : " + visited.contentToString())
     dfs(1,0)
     println("GraphSearch.result = $result")

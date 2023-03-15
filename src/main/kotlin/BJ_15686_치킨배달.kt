@@ -3,20 +3,20 @@
 //import java.io.InputStreamReader
 //import java.io.OutputStreamWriter
 //
-//fun BinarySearch.GraphSearch.BinarySearch.GraphSearch.GraphSearch.DynamicProgramming.GraphSearch.main() {
+//fun BinarySearch.GraphSearch.BinarySearch.GraphSearch.GraphSearch.DynamicProgramming.GraphSearch.BruteForce.DynamicProgramming.main() {
 //    val br = BufferedReader(InputStreamReader(System.`in`))
 //    val bw = BufferedWriter(OutputStreamWriter(System.out))
 //    val (n,m) = br.readLine().split(" ").map { it.toInt() }
 //
-//    val graph = Array(n){ br.readLine().split(" ").map { it.toInt() } }
+//    val BruteForce.getGraph = Array(n){ br.readLine().split(" ").map { it.toInt() } }
 //    val houseList = ArrayList<Pair<Int,Int>>()
 //    val chickenList = ArrayList<Pair<Int,Int>>()
 //
 //    for(i in 0 until n){
 //        for (j in 0 until n){
-//            if (graph[i][j] == 1){
+//            if (BruteForce.getGraph[i][j] == 1){
 //                houseList.add(Pair(i,j))
-//            }else if (graph[i][j] == 2){
+//            }else if (BruteForce.getGraph[i][j] == 2){
 //                chickenList.add(Pair(i,j))
 //            }
 //        }
@@ -25,7 +25,7 @@
 //    // 조합 알고리즘 필요
 //
 //
-////    graph.forEach { println(it.contentToString())}
+////    BruteForce.getGraph.forEach { println(it.contentToString())}
 //
 //}
 //
