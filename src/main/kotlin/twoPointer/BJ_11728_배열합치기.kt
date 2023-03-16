@@ -25,7 +25,7 @@ fun main(){
         }else{
             if(listA[a] <= listB[b]) result.add(listA[a++]) else result.add(listB[b++])
         }
-//        println("$result")
+//        println("$핵심개념연습.getResult")
 //        println("a :$a b : $b")
     }
     bw.write(result.joinToString(" "))
