@@ -17,7 +17,7 @@ fun main() {
         var mid :Int = (start + end) / 2
 //        println("mid : $mid")
         val result = check(l, mid)
-//        println("result : $result m : $m")
+//        println("핵심개념연습.getResult : $핵심개념연습.getResult m : $m")
         if ( result > m) {                     // m개 이상의 그룹이 됨 => mid 값이 작다
             start = mid
         } else {

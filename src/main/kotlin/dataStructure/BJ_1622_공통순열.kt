@@ -1,3 +1,5 @@
+package dataStructure
+
 import java.io.BufferedReader
 import java.io.BufferedWriter
 import java.io.InputStreamReader
@@ -33,7 +35,7 @@ fun main() {
 }
 
 
-//fun main() = System.`in`.bufferedReader().run {
+//fun `dp(dynamic programming)`.구현.dataStructure.dataStructure.dataStructure.`2`.bruteForce.핵심개념연습.binarySearch.main() = System.`in`.bufferedReader().run {
 //    System.out.bufferedWriter().run {
 //        while(true){
 //            // 알파벳 갯수를 저장할 배열 a와 b를 초기화합니다.

@@ -28,7 +28,7 @@ fun main() {
     println("GraphSearch.BruteForce.getGraph : " + graph.contentToString())
     println("GraphSearch.visited : " + visited.contentToString())
     dfs(1,0)
-    println("GraphSearch.result = $result")
+    println("GraphSearch.핵심개념연습.getResult = $result")
     if(result % 2 == 0) bw.write("No") else bw.write("Yes")
     bw.flush()
     bw.close()

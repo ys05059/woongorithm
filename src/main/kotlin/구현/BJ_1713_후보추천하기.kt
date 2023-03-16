@@ -1,4 +1,4 @@
-
+package 구현
 import java.io.BufferedReader
 import java.io.InputStreamReader
 
@@ -34,8 +34,8 @@ fun main() = with(BufferedReader(InputStreamReader(System.`in`))){
                 recommendCnt[k]++
             }
         }
-        println("recommendCnt:" + recommendCnt.joinToString(" "))
-        println("pictures:" + pictures.joinToString (" " ))
+        println("구현.getRecommendCnt:" + recommendCnt.joinToString(" "))
+        println("구현.getPictures:" + pictures.joinToString (" " ))
     }
     for(i in 1 ..100){
         if(recommendCnt[i]>0) print("$i ")
