@@ -5,26 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3fe5dcff-7500-4d99-87f9-69aeb07bdee3" name="Changes" comment="내용 살짝 수정">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/BJ_1660_캡틴이다솜.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/binarySearch/BJ_11561_징검다리.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/bruteForce/BJ_1711_직각삼각형.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/dp(dynamic programming)/BJ_14501_퇴사.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/핵심개념연습/순열_기본재귀vs백트랙킹.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/핵심개념연습/시간복잡도.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/핵심개념연습/조합_재귀vs백트랙킹.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/BJ_1527_금민수의개수.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/binarySearch/BJ_1920_수찾기.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/bruteForce/BJ_1895_필터.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/BJ_14501_퇴사.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/BJ_15686_치킨배달.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/BJ_15686_치킨배달.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/BJ_1620_나는야포켓몬마스터이다솜.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/dataStructure/BJ_1620_나는야포켓몬마스터이다솜.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/BJ_1622_공통순열.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/dataStructure/BJ_1622_공통순열.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/BJ_1713_후보추천하기.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/구현/BJ_1713_후보추천하기.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/BJ_1764_듣보잡.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/dataStructure/BJ_1764_듣보잡.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Submit_Test.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Test.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/binarySearch/BJ_2343_기타레슨.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/binarySearch/BJ_2343_기타레슨.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/graphSearch/BJ_15900_나무탈출.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/graphSearch/BJ_15900_나무탈출.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/twoPointer/BJ_11728_배열합치기.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/twoPointer/BJ_11728_배열합치기.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/BJ_1660_캡틴이다솜.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/BJ_1660_캡틴이다솜.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,27 +39,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/ys050/Desktop/문서/자습/Coding_Test/Coding_Test_Kotilin&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "/home/jaewoong/dev/Coding_Test_Kotlin",
+    "settings.editor.selected.configurable": "preferences.keymap"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/kotlin/binarySearch" />
+      <recent name="$PROJECT_DIR$/src/main/kotlin/bruteForce" />
       <recent name="C:\Users\ys050\Desktop\문서\자습\Coding_Test\Coding_Test_Kotilin\src\main\kotlin\binarySearch" />
       <recent name="C:\Users\ys050\Desktop\문서\자습\Coding_Test\Coding_Test_Kotilin\src\main\kotlin\핵심개념연습" />
       <recent name="C:\Users\ys050\Desktop\문서\자습\Coding_Test\Coding_Test_Kotilin\src\main\kotlin\bruteForce" />
-      <recent name="C:\Users\ys050\Desktop\문서\자습\Coding_Test\Coding_Test_Kotilin\src\main\kotlin" />
-      <recent name="C:\Users\ys050\Desktop\문서\자습\Coding_Test\Coding_Test_Kotilin\src\main\kotlin\2" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.BJ_1660_캡틴이다솜Kt">
+  <component name="RunManager" selected="Kotlin.BJ_1527_금민수의개수Kt">
     <configuration name="BJ_11561_징검다리Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="binarySearch.BJ_11561_징검다리Kt" />
+      <module name="Coding_Test_Kotilin" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BJ_1527_금민수의개수Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BJ_1527_금민수의개수Kt" />
       <module name="Coding_Test_Kotilin" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -87,13 +79,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BJ_1711_직각삼각형Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bruteForce.BJ_1711_직각삼각형Kt" />
-      <module name="Coding_Test_Kotilin" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="BJ_1711_자바Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BJ_1711_자바Kt" />
       <module name="Coding_Test_Kotilin" />
@@ -101,15 +86,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="시간복잡도Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="핵심개념연습.시간복잡도Kt" />
+    <configuration name="BJ_1895_필터Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bruteForce.BJ_1895_필터Kt" />
       <module name="Coding_Test_Kotilin" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test1Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="2.Test1Kt" />
+    <configuration name="BJ_1920_수찾기Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="binarySearch.BJ_1920_수찾기Kt" />
       <module name="Coding_Test_Kotilin" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -117,11 +102,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.BJ_1527_금민수의개수Kt" />
+        <item itemvalue="Kotlin.BJ_1920_수찾기Kt" />
+        <item itemvalue="Kotlin.BJ_1895_필터Kt" />
         <item itemvalue="Kotlin.BJ_1660_캡틴이다솜Kt" />
         <item itemvalue="Kotlin.BJ_11561_징검다리Kt" />
-        <item itemvalue="Kotlin.시간복잡도Kt" />
-        <item itemvalue="Kotlin.BJ_1711_직각삼각형Kt" />
-        <item itemvalue="Kotlin.Test1Kt" />
       </list>
     </recent_temporary>
   </component>
