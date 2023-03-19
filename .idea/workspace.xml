@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3fe5dcff-7500-4d99-87f9-69aeb07bdee3" name="Changes" comment="내용 살짝 수정">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/BJ_1527_금민수의개수.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/binarySearch/BJ_1920_수찾기.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/bruteForce/BJ_1895_필터.kt" afterDir="false" />
+    <list default="true" id="3fe5dcff-7500-4d99-87f9-69aeb07bdee3" name="Changes" comment="3/17,3/18 update">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/BJ_1912_연속합.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/BJ_1940_주몽.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/BJ_1660_캡틴이다솜.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/BJ_1660_캡틴이다솜.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,30 +55,9 @@
       <recent name="C:\Users\ys050\Desktop\문서\자습\Coding_Test\Coding_Test_Kotilin\src\main\kotlin\bruteForce" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.BJ_1527_금민수의개수Kt">
-    <configuration name="BJ_11561_징검다리Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="binarySearch.BJ_11561_징검다리Kt" />
-      <module name="Coding_Test_Kotilin" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Kotlin.BJ_1912_연속합Kt">
     <configuration name="BJ_1527_금민수의개수Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BJ_1527_금민수의개수Kt" />
-      <module name="Coding_Test_Kotilin" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BJ_1660_캡틴이다솜Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BJ_1660_캡틴이다솜Kt" />
-      <module name="Coding_Test_Kotilin" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BJ_1711_자바Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BJ_1711_자바Kt" />
       <module name="Coding_Test_Kotilin" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -93,6 +70,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="BJ_1912_연속합Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BJ_1912_연속합Kt" />
+      <module name="Coding_Test_Kotilin" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BJ_1920_수찾기Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="binarySearch.BJ_1920_수찾기Kt" />
       <module name="Coding_Test_Kotilin" />
@@ -100,13 +84,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="BJ_1940_주몽Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BJ_1940_주몽Kt" />
+      <module name="Coding_Test_Kotilin" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.BJ_1912_연속합Kt" />
+        <item itemvalue="Kotlin.BJ_1940_주몽Kt" />
         <item itemvalue="Kotlin.BJ_1527_금민수의개수Kt" />
         <item itemvalue="Kotlin.BJ_1920_수찾기Kt" />
         <item itemvalue="Kotlin.BJ_1895_필터Kt" />
-        <item itemvalue="Kotlin.BJ_1660_캡틴이다솜Kt" />
-        <item itemvalue="Kotlin.BJ_11561_징검다리Kt" />
       </list>
     </recent_temporary>
   </component>
@@ -196,7 +187,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678850929982</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="3/17,3/18 update">
+      <created>1679134722116</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1679134722116</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -222,7 +220,8 @@
     <MESSAGE value="BJ_1713&#10;- tony's today 3/14 Q2" />
     <MESSAGE value="BJ_1764&#10;- tony's today 3/14 Q1" />
     <MESSAGE value="내용 살짝 수정" />
-    <option name="LAST_COMMIT_MESSAGE" value="내용 살짝 수정" />
+    <MESSAGE value="3/17,3/18 update" />
+    <option name="LAST_COMMIT_MESSAGE" value="3/17,3/18 update" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
