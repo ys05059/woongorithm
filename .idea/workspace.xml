@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3fe5dcff-7500-4d99-87f9-69aeb07bdee3" name="Changes" comment="3/17,3/18 update">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/BJ_1912_연속합.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/BJ_1940_주몽.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="3fe5dcff-7500-4d99-87f9-69aeb07bdee3" name="Changes" comment="3/17,3/18 update" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
