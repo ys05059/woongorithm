@@ -34,8 +34,8 @@ fun combinationBack(n : Int, r : Int, temp : MutableList<Int> ,start : Int){
 //        return
 //    }
 //    temp.add(index)
-//    combination(n, r, temp, index + 1)
+//    bruteForce.combination(n, r, temp, index + 1)
 //    temp.removeAt(temp.lastIndex)
-//    combination(n, r, temp, index + 1)
+//    bruteForce.combination(n, r, temp, index + 1)
 //    // 왜 combination이 두번 호출되는가 -> index를 포함한 경우 + index를 포함하지 않은 경우
 //}
