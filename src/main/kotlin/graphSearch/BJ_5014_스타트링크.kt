@@ -17,7 +17,7 @@ fun main() {
 //    bw.close()
 }
 
-fun BFS (start : Int, end : Int, up :Int, down : Int) : String{
+private fun BFS (start : Int, end : Int, up :Int, down : Int) : String{
     var dq = ArrayDeque<Int>()
     dq.addLast(start)
     visited[start] = 0

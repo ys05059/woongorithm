@@ -26,7 +26,7 @@ fun main() {
     // 알고리즘 -> 결국 dfs하면서 모든 리프노드까지의 깊이 전부 더한 값을 구해서 홀수이면 승리, 짝수이면 패배
     // 리프를 전부 찾아야한다.
     println("GraphSearch.BruteForce.getGraph : " + graph.contentToString())
-    println("GraphSearch.visited : " + visited.contentToString())
+    println("GraphSearch.graphSearch.getVisited : " + visited.contentToString())
     dfs(1,0)
     println("GraphSearch.핵심개념연습.getResult = $result")
     if(result % 2 == 0) bw.write("No") else bw.write("Yes")

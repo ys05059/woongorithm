@@ -3,7 +3,7 @@
 //import java.io.InputStreamReader
 //import java.io.OutputStreamWriter
 //
-//fun BinarySearch.GraphSearch.BinarySearch.GraphSearch.GraphSearch.DynamicProgramming.GraphSearch.BruteForce.DynamicProgramming.`dp(dynamic programming)`.구현.dataStructure.dataStructure.dataStructure.`2`.bruteForce.핵심개념연습.binarySearch.main() {
+//fun BinarySearch.GraphSearch.BinarySearch.GraphSearch.GraphSearch.DynamicProgramming.GraphSearch.BruteForce.DynamicProgramming.`dp(dynamic programming)`.구현.dataStructure.dataStructure.dataStructure.`2`.bruteForce.핵심개념연습.binarySearch.bruteForce.graphSearch.tree.main() {
 //    val br = BufferedReader(InputStreamReader(System.`in`))
 //    val bw = BufferedWriter(OutputStreamWriter(System.out))
 //    val (n,m) = br.readLine().split(" ").map { it.toInt() }
@@ -29,7 +29,7 @@
 //
 //}
 //
-//fun combination(target : Int, temp : MutableList<Int>, cur : Int, start : Int, end : Int) {
+//fun bruteForce.combination(target : Int, temp : MutableList<Int>, cur : Int, start : Int, end : Int) {
 //    // 만드려는 조합 리스트의 길이와 같으면 해당 값 추가 후 종료
 //    if (cur == target) {
 ////        핵심개념연습.getResult.add(temp)
@@ -40,7 +40,7 @@
 //        for (i in start until end) {
 //            var temp = temp
 //            temp.add(i)
-//            combination(target, this.temp, cur+1, i+1, end)
+//            bruteForce.combination(target, this.temp, cur+1, i+1, end)
 //        }
 //    }
 //}

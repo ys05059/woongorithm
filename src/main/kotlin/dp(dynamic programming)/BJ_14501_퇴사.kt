@@ -74,7 +74,7 @@ fun main(){
 //import java.io.InputStreamReader
 //import java.util.*
 //
-//fun `2`.bruteForce.핵심개념연습.binarySearch.main()= with(BufferedReader(InputStreamReader(System.`in`))){
+//fun `2`.bruteForce.핵심개념연습.binarySearch.bruteForce.graphSearch.tree.main()= with(BufferedReader(InputStreamReader(System.`in`))){
 //    val N = readLine().toInt()//일할 수 있는 날짜(1 이상 15 이하의 자연수)
 //
 //    var T = IntArray(N + 10)//시간을 저장할 배열

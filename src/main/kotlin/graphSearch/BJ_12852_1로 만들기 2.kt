@@ -17,7 +17,7 @@ fun main() {
 //    println("map ${BruteForce.getGraph.contentToString()}")
 
     bfs(n)
-//    println("GraphSearch.visited : ${GraphSearch.visited.contentToString()}")
+//    println("GraphSearch.graphSearch.getVisited : ${GraphSearch.graphSearch.getVisited.contentToString()}")
     // 출력
     var i = 1
     var result = ArrayList<Int>()
