@@ -1,4 +1,4 @@
-package bruteForce
+package bruteForce.combination
 
 import java.io.BufferedReader
 import java.io.InputStreamReader
@@ -31,7 +31,7 @@ fun main() = with(BufferedReader(InputStreamReader(System.`in`))){
     println(answer)
 }
 
-fun combination(n : Int, r: Int,  result : MutableList<Int>, start : Int){
+private fun combination(n : Int, r: Int,  result : MutableList<Int>, start : Int){
     if (result.size == r){
 //        println("result : $result")
         combList.add(result.toIntArray())

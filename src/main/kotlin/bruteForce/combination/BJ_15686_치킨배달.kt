@@ -1,3 +1,5 @@
+package bruteForce.combination
+
 /**
  * 이거 dfs 같은 그래프 탐색 딱히 안해도 되겠는데
  *
@@ -29,7 +31,7 @@ fun main() = StreamTokenizer(System.`in`.bufferedReader()).run {
     println(ans)
 }
 
-fun combination(n : Int, r : Int, result : MutableList<Pair<Int,Int>>, index : Int){
+private fun combination(n : Int, r : Int, result : MutableList<Pair<Int,Int>>, index : Int){
     if(result.size == r){
         ans = ans.coerceAtMost(calculateCityMin(result))
         return
