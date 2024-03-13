@@ -1,46 +1,60 @@
-//import java.io.BufferedReader
-//import java.io.BufferedWriter
-//import java.io.InputStreamReader
-//import java.io.OutputStreamWriter
-//
-//fun BinarySearch.GraphSearch.BinarySearch.GraphSearch.GraphSearch.DynamicProgramming.GraphSearch.BruteForce.DynamicProgramming.`dp(dynamic programming)`.구현.dataStructure.dataStructure.dataStructure.`2`.bruteForce.핵심개념연습.binarySearch.bruteForce.graphSearch.tree.main() {
-//    val br = BufferedReader(InputStreamReader(System.`in`))
-//    val bw = BufferedWriter(OutputStreamWriter(System.out))
-//    val (n,m) = br.readLine().split(" ").map { it.toInt() }
-//
-//    val BruteForce.getGraph = Array(n){ br.readLine().split(" ").map { it.toInt() } }
-//    val houseList = ArrayList<Pair<Int,Int>>()
-//    val chickenList = ArrayList<Pair<Int,Int>>()
-//
-//    for(i in 0 until n){
-//        for (j in 0 until n){
-//            if (BruteForce.getGraph[i][j] == 1){
-//                houseList.add(Pair(i,j))
-//            }else if (BruteForce.getGraph[i][j] == 2){
-//                chickenList.add(Pair(i,j))
-//            }
-//        }
-//    }
-//
-//    // 조합 알고리즘 필요
-//
-//
-////    BruteForce.getGraph.forEach { println(it.contentToString())}
-//
-//}
-//
-//fun bruteForce.combination(target : Int, temp : MutableList<Int>, cur : Int, start : Int, end : Int) {
-//    // 만드려는 조합 리스트의 길이와 같으면 해당 값 추가 후 종료
-//    if (cur == target) {
-////        핵심개념연습.getResult.add(temp)
-//        return
-//    }
-//    else {
-//        // 재귀를 통해 시작 인덱스부터 종료 인덱스까지 순차적으로 실행시킴.
-//        for (i in start until end) {
-//            var temp = temp
-//            temp.add(i)
-//            bruteForce.combination(target, this.temp, cur+1, i+1, end)
-//        }
-//    }
-//}
+/**
+ * 이거 dfs 같은 그래프 탐색 딱히 안해도 되겠는데
+ *
+ * 치킨집은 어떻게 고를건데 -> 조합이 먼저 떠오르긴한다.
+ */
+
+import java.io.StreamTokenizer
+import kotlin.math.abs
+
+private val home = mutableListOf<Pair<Int,Int>>()
+private val chicken = mutableListOf<Pair<Int,Int>>()
+private var ans = Int.MAX_VALUE
+fun main() = StreamTokenizer(System.`in`.bufferedReader()).run {
+    fun input() : Int {
+        nextToken()
+        return nval.toInt()
+    }
+    val n = input()
+    val m = input()
+
+    repeat(n){ i ->
+        repeat(n){ j ->
+            val temp = input()
+            if(temp == 1) home.add(j to i)
+            if(temp == 2) chicken.add(j to i)
+        }
+    }
+    combination(chicken.size, m, mutableListOf(), 0)
+    println(ans)
+}
+
+fun combination(n : Int, r : Int, result : MutableList<Pair<Int,Int>>, index : Int){
+    if(result.size == r){
+        ans = ans.coerceAtMost(calculateCityMin(result))
+        return
+    }
+    for( i in index until n){
+        result.add(chicken[i])
+        combination(n, r, result,i + 1)
+        result.removeLast()
+    }
+}
+
+fun calculateCityMin(chicken : MutableList<Pair<Int,Int>>) : Int{
+    var distance = 0
+    home.forEach {
+        distance += calculateMin(it.first,it.second,chicken)
+    }
+    return distance
+}
+
+fun calculateMin(x : Int, y : Int, chicken : MutableList<Pair<Int,Int>>) : Int{
+    //  각 치킨집까지의 거리 계산해서 최소 구하기
+    var min = Int.MAX_VALUE
+    chicken.forEach {
+        min = min.coerceAtMost(abs(it.first-x)+abs(it.second-y))
+    }
+    return min
+}
+
