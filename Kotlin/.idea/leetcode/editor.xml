@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="LeetcodeEditor">
+    <option name="projectConfig">
+      <map>
+        <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/en/[102]Binary Tree Level Order Traversal.kt">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/en/doc/content/[102]Binary Tree Level Order Traversal.md" />
+              <option name="frontendQuestionId" value="leetcode.com102" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/en/[102]Binary Tree Level Order Traversal.kt" />
+              <option name="titleSlug" value="binary-tree-level-order-traversal" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/en/[116]Populating Next Right Pointers in Each Node.kt">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/en/doc/content/[116]Populating Next Right Pointers in Each Node.md" />
+              <option name="frontendQuestionId" value="leetcode.com116" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/en/[116]Populating Next Right Pointers in Each Node.kt" />
+              <option name="titleSlug" value="populating-next-right-pointers-in-each-node" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/en/[11]Container With Most Water.kt">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/en/doc/content/[11]Container With Most Water.md" />
+              <option name="frontendQuestionId" value="leetcode.com11" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/en/[11]Container With Most Water.kt" />
+              <option name="titleSlug" value="container-with-most-water" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/en/[13]Roman to Integer.kt">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/en/doc/content/[13]Roman to Integer.md" />
+              <option name="frontendQuestionId" value="leetcode.com13" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/en/[13]Roman to Integer.kt" />
+              <option name="titleSlug" value="roman-to-integer" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/en/[155]Min Stack.kt">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/en/doc/content/[155]Min Stack.md" />
+              <option name="frontendQuestionId" value="leetcode.com155" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/en/[155]Min Stack.kt" />
+              <option name="titleSlug" value="min-stack" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/en/[17]Letter Combinations of a Phone Number.kt">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/en/doc/content/[17]Letter Combinations of a Phone Number.md" />
+              <option name="frontendQuestionId" value="leetcode.com17" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/en/[17]Letter Combinations of a Phone Number.kt" />
+              <option name="titleSlug" value="letter-combinations-of-a-phone-number" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/en/[1]Two Sum.kt">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/en/doc/content/[1]Two Sum.md" />
+              <option name="frontendQuestionId" value="leetcode.com1" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/en/[1]Two Sum.kt" />
+              <option name="titleSlug" value="two-sum" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/en/[206]Reverse Linked List.kt">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/en/doc/content/[206]Reverse Linked List.md" />
+              <option name="frontendQuestionId" value="leetcode.com206" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/en/[206]Reverse Linked List.kt" />
+              <option name="titleSlug" value="reverse-linked-list" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/en/[20]Valid Parentheses.kt">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/en/doc/content/[20]Valid Parentheses.md" />
+              <option name="frontendQuestionId" value="leetcode.com20" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/en/[20]Valid Parentheses.kt" />
+              <option name="titleSlug" value="valid-parentheses" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/en/[215]Kth Largest Element in an Array.kt">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/en/doc/content/[215]Kth Largest Element in an Array.md" />
+              <option name="frontendQuestionId" value="leetcode.com215" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/en/[215]Kth Largest Element in an Array.kt" />
+              <option name="titleSlug" value="kth-largest-element-in-an-array" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/en/[21]Merge Two Sorted Lists.kt">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/en/doc/content/[21]Merge Two Sorted Lists.md" />
+              <option name="frontendQuestionId" value="leetcode.com21" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/en/[21]Merge Two Sorted Lists.kt" />
+              <option name="titleSlug" value="merge-two-sorted-lists" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/en/[234]Palindrome Linked List.kt">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/en/doc/content/[234]Palindrome Linked List.md" />
+              <option name="frontendQuestionId" value="leetcode.com234" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/en/[234]Palindrome Linked List.kt" />
+              <option name="titleSlug" value="palindrome-linked-list" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/en/[24]Swap Nodes in Pairs.kt">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/en/doc/content/[24]Swap Nodes in Pairs.md" />
+              <option name="frontendQuestionId" value="leetcode.com24" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/en/[24]Swap Nodes in Pairs.kt" />
+              <option name="titleSlug" value="swap-nodes-in-pairs" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/en/[316]Remove Duplicate Letters.kt">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/en/doc/content/[316]Remove Duplicate Letters.md" />
+              <option name="frontendQuestionId" value="leetcode.com316" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/en/[316]Remove Duplicate Letters.kt" />
+              <option name="titleSlug" value="remove-duplicate-letters" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/en/[382]Linked List Random Node.kt">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/en/doc/content/[382]Linked List Random Node.md" />
+              <option name="frontendQuestionId" value="leetcode.com382" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/en/[382]Linked List Random Node.kt" />
+              <option name="titleSlug" value="linked-list-random-node" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/en/[46]Permutations.kt">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/en/doc/content/[46]Permutations.md" />
+              <option name="frontendQuestionId" value="leetcode.com46" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/en/[46]Permutations.kt" />
+              <option name="titleSlug" value="permutations" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/en/[71]Simplify Path.kt">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/en/doc/content/[71]Simplify Path.md" />
+              <option name="frontendQuestionId" value="leetcode.com71" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/en/[71]Simplify Path.kt" />
+              <option name="titleSlug" value="simplify-path" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/en/[75]Sort Colors.kt">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/en/doc/content/[75]Sort Colors.md" />
+              <option name="frontendQuestionId" value="leetcode.com75" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/en/[75]Sort Colors.kt" />
+              <option name="titleSlug" value="sort-colors" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/en/[77]Combinations.kt">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/en/doc/content/[77]Combinations.md" />
+              <option name="frontendQuestionId" value="leetcode.com77" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/en/[77]Combinations.kt" />
+              <option name="titleSlug" value="combinations" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/en/[83]Remove Duplicates from Sorted List.kt">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/en/doc/content/[83]Remove Duplicates from Sorted List.md" />
+              <option name="frontendQuestionId" value="leetcode.com83" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/en/[83]Remove Duplicates from Sorted List.kt" />
+              <option name="titleSlug" value="remove-duplicates-from-sorted-list" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

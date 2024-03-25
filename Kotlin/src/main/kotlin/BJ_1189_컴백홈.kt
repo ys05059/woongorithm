@@ -24,7 +24,7 @@ fun main() = with(BufferedReader(InputStreamReader(System.`in`))){
     dfs(x =0, y= r-1, r,c,k,cnt = 1)
     println(answer)
 }
-fun dfs(x : Int, y : Int, r: Int, c: Int,k : Int, cnt : Int){
+private fun dfs(x : Int, y : Int, r: Int, c: Int,k : Int, cnt : Int){
     if(cnt >k) return
     if(x == c-1 && y == 0 && cnt == k){
         answer++
