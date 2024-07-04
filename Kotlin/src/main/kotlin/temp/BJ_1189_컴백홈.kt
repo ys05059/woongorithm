@@ -1,4 +1,4 @@
-/*
+package temp/*
 * dfs를 하는데 지금까지 탐색한거만 제외하고 계속 탐색하고 싶어
 * 전체 맵 graphSearch.getVisited 만들기 -> 안됨
 * 지금까지 탐색한거만 넣어두는 graphSearch.getVisited 생성
@@ -32,8 +32,8 @@ private fun dfs(x : Int, y : Int, r: Int, c: Int,k : Int, cnt : Int){
     }
 //    println(graphSearch.getVisited)
     repeat(4){
-        val nx = x+dx[it]
-        val ny = y+dy[it]
+        val nx = x+ dx[it]
+        val ny = y+ dy[it]
 //        println("nx : $nx, ny : $ny")
         if(nx in 0 until c &&  ny in 0 until r && map[ny][nx]=='.'&& !visited[ny][nx]){
             visited[ny][nx] = true

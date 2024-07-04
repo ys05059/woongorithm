@@ -1,4 +1,4 @@
-// https://www.acmicpc.net/source/66708580 참고
+package temp// https://www.acmicpc.net/source/66708580 참고
 import java.util.PriorityQueue
 import java.util.StringTokenizer
 

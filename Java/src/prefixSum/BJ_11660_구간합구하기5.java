@@ -1,4 +1,4 @@
-
+package prefixSum;
 /**
  * 2차원 배열 prefixSum 문제
  */

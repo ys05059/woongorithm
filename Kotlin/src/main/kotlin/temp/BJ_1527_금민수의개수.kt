@@ -1,4 +1,4 @@
-/*
+package temp/*
 binary search? no 특정값을 찾는게 아님 카운트하는거임
 
 for문 전체 다 돌면 안됨

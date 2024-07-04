@@ -1,3 +1,5 @@
+package temp
+
 import kotlin.math.pow
 fun main() = with(System.`in`.bufferedReader()){
     while (true){
