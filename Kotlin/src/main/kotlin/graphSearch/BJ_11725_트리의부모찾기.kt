@@ -1,4 +1,4 @@
-package main.kotlin
+package main.kotlin.graphSearch
 
 /**
  *  1부터 dfs 하기
