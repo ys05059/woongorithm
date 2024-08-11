@@ -19,5 +19,6 @@ fun main() = with(StreamTokenizer(System.`in`.bufferedReader())){
             }
         }
     }
+
     println(dp.max())
 }

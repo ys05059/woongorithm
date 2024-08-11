@@ -1,4 +1,4 @@
-package main.kotlin
+package main.kotlin.shortestPath.floyd
 
 /**
  * 플로이드 와샬 문제 -> n개의 지점에서 n개의 지점까지의 최 전부 구해야함
