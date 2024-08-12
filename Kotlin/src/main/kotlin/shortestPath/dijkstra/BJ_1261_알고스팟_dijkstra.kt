@@ -1,9 +1,8 @@
 package main.kotlin.shortestPath.dijkstra
 
-import java.io.StreamTokenizer
 import java.util.PriorityQueue
 
-fun main() = with(StreamTokenizer(System.`in`.bufferedReader())){
+fun main() {
     data class Node(val x : Int , val y : Int, val c : Int)
     val dx = arrayOf(1,0,-1,0)
     val dy = arrayOf(0,-1,0,1)
