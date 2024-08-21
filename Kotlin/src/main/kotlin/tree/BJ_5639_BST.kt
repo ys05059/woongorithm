@@ -9,9 +9,12 @@ fun main() = with(StreamTokenizer(System.`in`.bufferedReader())){
             else -> null
         }
     }
+    val tree = Tree
     while(true){
         val next = input() ?: break
+        tree.insert(next)
     }
+    tree.postorderTraversal()
 }
 
 private object Tree{
