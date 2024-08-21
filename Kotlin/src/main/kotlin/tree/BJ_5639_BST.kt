@@ -9,48 +9,24 @@ fun main() = with(StreamTokenizer(System.`in`.bufferedReader())){
             else -> null
         }
     }
-    val tree = Tree
+    val sb = StringBuilder()
+    val ary = ArrayList<Int>()
+
     while(true){
         val next = input() ?: break
-        tree.insert(next)
-    }
-    tree.postorderTraversal()
-}
-
-private object Tree{
-    data class TreeNode<T>(
-        val value: T,
-        var left: TreeNode<T>? = null,
-        var right: TreeNode<T>? = null
-    )
-    private var root : TreeNode<Int>? = null
-    private val sb = StringBuilder()
-
-    fun insert(value: Int){
-        root = insert(root, value)
+        ary.add(next)
     }
 
-    private fun insert(node : TreeNode<Int>?, value: Int) : TreeNode<Int>{
-        if(node == null) {
-            return TreeNode(value)
+    fun bs(s : Int, e : Int){
+        if(s > e) return
+        var mid = s + 1
+        while(mid <= e && ary[s] > ary[mid]) {      // 전위라서 ary[s]랑 비교
+            mid++
         }
-        when{
-            value < node.value -> node.left = insert(node.left,value)
-            value > node.value -> node.right = insert(node.right,value)
-        }
-        return node
+        bs(s+1, mid -1)
+        bs(mid,e)
+        sb.appendLine(ary[s])
     }
-
-    fun postorderTraversal(){
-        postorderTraversal(root)
-        println(sb.toString())
-    }
-
-    private fun postorderTraversal(node : TreeNode<Int>?){
-        if(node != null){
-            postorderTraversal(node.left)
-            postorderTraversal(node.right)
-            sb.append(node.value).append("\n")
-        }
-    }
+    bs(0,ary.size-1)
+    print(sb)
 }
