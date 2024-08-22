@@ -15,13 +15,13 @@ fun main() {
     Tree.postOrder()
 }
 
-data class TreeNode<T>(
-    var data : T,
-    var left : TreeNode<T>?  = null,
-    var right : TreeNode<T>? = null
-)
 
 private object Tree {
+    data class TreeNode<T>(
+        var data : T,
+        var left : TreeNode<T>?  = null,
+        var right : TreeNode<T>? = null
+    )
     private var root : TreeNode<String>?  = null
     fun add(data : String, left : String, right : String){
         if(root == null){
