@@ -1,4 +1,4 @@
-/**
+package dataStructure.stack; /**
  * 스택 대신 StringBuilder에 넣고 나중에 delete 해주기
  * 그냥 char[]로 idx 값 조정하면서 처리하는게 나을 듯
  */
