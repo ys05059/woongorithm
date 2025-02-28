@@ -1,3 +1,4 @@
+
 /**
  * 최단거리 문제
  * 한 지점에서 한 지점까지의 최단거리 -> 다익스트라
@@ -65,11 +66,6 @@ public class Main {
       this.x = x;
       this.y = y;
       this.w = w;
-    }
-
-    @Override
-    public String toString() {
-      return "Node [x=" + x + ", y=" + y + ", w=" + w + "]";
     }
 
   }
