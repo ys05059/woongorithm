@@ -1,85 +1,84 @@
-/**
- * 최단거리 문제
- * 한 지점에서 한 지점까지의 최단거리 -> 다익스트라
- * 다익스트라는 기본이 그리디
- * PQ로 최소화 -> 근데 간선이 최대 3개라서 큰 상관은 없지만 그래도
- * visited로 왔던길 체크
- */
-
 import java.io.BufferedReader;
-import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.io.StreamTokenizer;
 import java.util.Arrays;
 import java.util.PriorityQueue;
 
 public class Main {
-  private static StreamTokenizer st;
-  private static final int[] dx = {0, 1, 0, -1};
-  private static final int[] dy = {1, 0, -1, 0};
-
-  public static void main(String[] args) throws Exception {
-    st = new StreamTokenizer(new BufferedReader(new InputStreamReader(System.in)));
-    StringBuilder sb = new StringBuilder();
-    int t = 1;
-    while (true) {
-      int N = nextInt();
-      if (N == 0) break;
-      int[][] adjMtx = new int[N][N];
-      int[][] dist = new int[N][N];
-      for (int i = 0; i < N; i++) {
-        for (int j = 0; j < N; j++) {
-          adjMtx[i][j] = nextInt();
-          dist[i][j] = Integer.MAX_VALUE;
-        }
-      }
-      PriorityQueue<Node> pq = new PriorityQueue<>((n1, n2) -> Integer.compare(n1.w, n2.w));
-      dist[0][0] = adjMtx[0][0];
-      pq.offer(new Node(0, 0, adjMtx[0][0]));
-      while (!pq.isEmpty()) {
-        // 최소 비용인 곳 찾기 - PQ로 해결
-        Node c = pq.poll();
-        // printMtx(N, dist);
-        if (c.x == N - 1 && c.y == N - 1) break;
-        if (dist[c.y][c.x] < c.w) continue;
-        // 최소 비용 업데이트 및 탐색 이어가기
-        for (int i = 0; i < 4; i++) {
-          int nx = c.x + dx[i];
-          int ny = c.y + dy[i];
-          if (nx < 0 || ny < 0 || nx >= N || ny >= N) continue;
-          if (dist[ny][nx] <= dist[c.y][c.x] + adjMtx[ny][nx]) continue;
-          dist[ny][nx] = dist[c.y][c.x] + adjMtx[ny][nx];
-          pq.offer(new Node(nx, ny, dist[ny][nx]));
-        }
-      }
-      int ans = dist[N - 1][N - 1];
-      sb.append("Problem " + t + ": ").append(ans).append("\n");
-      t++;
-    }
-    System.out.println(sb);
-  }
-
-  private static class Node {
-    int x, y, w;
-
-    public Node(int x, int y, int w) {
-      this.x = x;
-      this.y = y;
-      this.w = w;
-    }
-
-  }
-
-  private static void printMtx(int N, int[][] mtx) {
-    for (int i = 0; i < N; i++) {
-      System.out.println(Arrays.toString(mtx[i]));
-    }
-    System.out.println("---------------");
-  }
-
-  private static int nextInt() throws IOException {
-    st.nextToken();
-    return (int) st.nval;
-  }
-}
+	
+	static class Coord implements Comparable<Coord> {
+		int r, c;
+		int dist;
+		public Coord() {
+		}
+		public Coord(int r, int c, int dist) {
+			super();
+			this.r = r;
+			this.c = c;
+			this.dist = dist;
+		}
+		@Override
+		public int compareTo(Coord o) {
+			return this.dist - o.dist;
+		}		
+	}
+	
+	static int[] dr = {0, 0, 1,-1};
+	static int[] dc = {1,-1, 0, 0};
+	
+	public static void main(String[] args) throws IOException {
+		BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
+		StringBuilder sb = new StringBuilder();
+		
+		int index = 0;
+		String N_ = null;
+		while (!"0".equals(N_ = in.readLine())) {
+			int N = Integer.parseInt(N_);
+			
+			int[][] map = new int[N][N];
+			int[][] dist = new int[N][N]; // (0, 0) ~ (i, j)까지의 거리를 저장할 배열
+			
+			for (int r = 0; r < map.length; r++) {
+				String line = in.readLine();
+				for (int c = 0; c < map[r].length; c++) {
+					map[r][c] = line.charAt(c<<1) - '0';
+				}
+			}
+			for (int r = 0; r < dist.length; r++) {
+				Arrays.fill(dist[r], Integer.MAX_VALUE);
+			}
+			
+			PriorityQueue<Coord> pQueue = new PriorityQueue<Coord>();
+			dist[0][0] = map[0][0];
+			pQueue.offer(new Coord(0, 0, dist[0][0]));
+			
+			while (!pQueue.isEmpty()) {
+				// 현재 원소 poll
+				Coord coord = pQueue.poll();
+				int r = coord.r;
+				int c = coord.c;
+				int d = coord.dist;
+				
+				// 백트래킹 - r, c의 값이 더 싼 경우
+				if (dist[r][c] < d) {
+					continue;
+				}
+				
+				for (int i = 0; i < dr.length; i++) {
+					int nr = r + dr[i];
+					int nc = c + dc[i];
+					if (nr >= 0 && nr < N && nc >= 0 && nc < N &&
+							d + map[nr][nc] < dist[nr][nc]) {
+						dist[nr][nc] = d + map[nr][nc];
+						pQueue.offer(new Coord(nr, nc, dist[nr][nc]));
+					}
+				}
+			}
+			
+			// 출력
+			sb.append("Problem ").append(++index).append(": ").append(dist[N-1][N-1]).append("\n");
+		}
+		
+		System.out.print(sb.toString());
+	} // end of main
+} // end of class
