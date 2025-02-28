@@ -1,4 +1,3 @@
-
 /**
  * 최단거리 문제
  * 한 지점에서 한 지점까지의 최단거리 -> 다익스트라
@@ -36,7 +35,6 @@ public class Main {
         }
       }
       PriorityQueue<Node> pq = new PriorityQueue<>((n1, n2) -> Integer.compare(n1.w, n2.w));
-      int[][] visited = new int[N][N];
       dist[0][0] = adjMtx[0][0];
       pq.offer(new Node(0, 0, adjMtx[0][0]));
       while (!pq.isEmpty()) {
@@ -44,13 +42,12 @@ public class Main {
         Node c = pq.poll();
         // printMtx(N, dist);
         if (c.x == N - 1 && c.y == N - 1) break;
-        visited[c.y][c.x] = 1;
+        if (dist[c.y][c.x] < c.w) continue;
         // 최소 비용 업데이트 및 탐색 이어가기
         for (int i = 0; i < 4; i++) {
           int nx = c.x + dx[i];
           int ny = c.y + dy[i];
           if (nx < 0 || ny < 0 || nx >= N || ny >= N) continue;
-          if (visited[ny][nx] == 1) continue;
           if (dist[ny][nx] <= dist[c.y][c.x] + adjMtx[ny][nx]) continue;
           dist[ny][nx] = dist[c.y][c.x] + adjMtx[ny][nx];
           pq.offer(new Node(nx, ny, dist[ny][nx]));
