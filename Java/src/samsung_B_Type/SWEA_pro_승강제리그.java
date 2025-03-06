@@ -1,3 +1,4 @@
+package samsung_B_Type;
 
 import java.util.ArrayList;
 import java.util.Scanner;
