@@ -8,6 +8,7 @@
  * 만약 다음 탐색 노드가 i보다 작다 -> 이미 dfs로 탐색한 적이 있다 -> visited 배열 넘겨받기
  * 2 - 3 - 1 - 4-5이라고 하자 i == 2인 경우라면 1<2이므로 1로부터 방문할 수 있는 모든 곳(4,5)은 2도 전부 가능하므로 or 연산으로 합치기
  */
+package bitmasking;
 
 import java.io.BufferedReader;
 import java.io.IOException;
