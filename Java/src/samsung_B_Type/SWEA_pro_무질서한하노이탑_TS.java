@@ -8,6 +8,7 @@ import java.util.Collections;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
+import java.util.TreeSet;
 
 /**
  * 무슨 문제인지 감이 안온다. 그냥 구현문제인가
@@ -46,51 +47,50 @@ import java.util.Scanner;
  * 4차 구현 완료 - hanoi 배열 int[]로 구현, 검색 이분탐색 -> 3.6초
  * 사소한 backTracking 추가한다고 되는 문제가 아니다.
  * 결국 어떻게 해야하는가? 로직이 잘못되었다고 밖에 생각할 수 없다.
+ * deq을 공유하면 될 것 같다. -> 현재 계속 새로운 deq을 만드니까 시간초과가 뜬다
  * 
  * 
  * 최대 10 * 50_000 -> 50만번의 실제 이동
  * 500_000 * log(1000) = 5_000_000
  * 
  */
-class UserSolution_하노이탑 {
+class UserSolution_하노이탑_TS {
   private ArrayList<Integer> plates;
-  private int[][] hanoi;
-  private int[] last_hanoi;
+  private TreeSet<Integer>[] hanoi;
   private Map<Integer, Integer> posMap;
   private int idx;
+  private ArrayDeque<Move> deq;
 
   void init(int N[], int mDisk[][]) {
     plates = new ArrayList<>();
-    hanoi = new int[3][1000];
-    last_hanoi = new int[3];
+    hanoi = new TreeSet[3];
     posMap = new HashMap<>();
     idx = 0;
+    deq = new ArrayDeque<>();
 
     for (int i = 0; i < 3; i++) {
+      hanoi[i] = new TreeSet<>();
       for (int j = 0; j < N[i]; j++) {
         if (mDisk[i][j] > 0) {
           plates.add(mDisk[i][j]);
-          hanoi[i][N[i] - j - 1] = mDisk[i][j];
-          last_hanoi[i]++;
+          hanoi[i].add(mDisk[i][j]);
           posMap.put(mDisk[i][j], i);
         }
       }
     }
-    Collections.sort(plates, Collections.reverseOrder()); // NlogN이면 1000 * log1000 == 10_000
-    // System.out.println("plates : " + Arrays.toString(plates.toArray()));
-    // printHanoi();
+    Collections.sort(plates, Collections.reverseOrder());
   }
 
   void destroy() {
 
   }
 
+  // 현재 원판 위치 어떻게 깔끔하게 가져오지?
+
   void go(int k, int mTop[]) {
-    // System.out.println("go 시작");
     int cnt = k;
     for (int i = idx; i < plates.size(); i++) {
       int p = plates.get(i);
-      // System.out.println("p :" + p);
       int from = findPosition(p);
       int temp = findTemp(from, 2);
       if (from == 2) continue;
@@ -101,8 +101,8 @@ class UserSolution_하노이탑 {
       }
     }
     for (int i = 0; i < 3; i++) {
-      if (last_hanoi[i] == 0) mTop[i] = 0;
-      else mTop[i] = hanoi[i][last_hanoi[i] - 1];
+      if (hanoi[i].isEmpty()) mTop[i] = 0;
+      else mTop[i] = hanoi[i].first();
     }
   }
 
@@ -111,91 +111,59 @@ class UserSolution_하노이탑 {
    * 1. 이동하기 전에 먼저 도착 위치 기둥에 자기보다 작은 원판 옮기기 (큰 원판부터)
    */
   private int doMove(Move m, int k) {
-    ArrayDeque<Move> deq = new ArrayDeque<>();
     int cnt = 1;
-
     deq.offer(m);
     // 아래 while문이 최대 500_000 호출된다 그런데 각 while문은 현재 4logN임
     while (!deq.isEmpty()) {
-      // System.out.println("doMove");
-      // printHanoi();
-      // System.out.println("deq : " + Arrays.toString(deq.toArray()));
-      // System.out.println("curr : " + curr);
-
       Move curr = deq.peekFirst();
       // 도착 기둥에 자기보다 작은 원판이 있다면 먼저 이동
-      Move temp1 = findPlateOfTo(curr);
-      Move temp2 = findPlateOfFrom(curr);
-      // 자기위에 있는 원판이 있다면 먼저 이동
 
-      if (temp1 == null && temp2 == null) {
+      // 이동 가능한 상태
+      if (hanoi[curr.from].first() == curr.num
+          && (hanoi[curr.to].isEmpty() || hanoi[curr.to].first() > curr.num)) {
         // 자기자신 움직이기
         // hanoi 배열 업데이트, posMap 업데이트
         deq.pollFirst();
-        hanoi[curr.to][last_hanoi[curr.to]++] = curr.num;
-        hanoi[curr.from][last_hanoi[curr.from]--] = 0;
-        // start_hanoi[curr.from]++;
+        hanoi[curr.to].add(curr.num);
+        hanoi[curr.from].pollFirst();
         posMap.replace(curr.num, curr.to);
         if (cnt == k) {
           return cnt;
         }
         cnt++;
       } else {
-        // System.out.println("temp1 : " + temp1);
-        // System.out.println("temp2 : " + temp2);
-        if (temp1 == null) {
-          deq.addFirst(temp2);
-        } else if (temp2 == null) {
-          deq.addFirst(temp1);
-        } else if (temp1.num < temp2.num) {
-          deq.addFirst(temp1);
-          deq.addFirst(temp2);
-        } else if (temp1.num > temp2.num) {
-          deq.addFirst(temp2);
-          deq.addFirst(temp1);
-        }
+        // 이동 안되는경우
+
+        // if (temp1 == null) {
+        // deq.addFirst(temp2);
+        // } else if (temp2 == null) {
+        // deq.addFirst(temp1);
+        // } else if (temp1.num < temp2.num) {
+        // deq.addFirst(temp1);
+        // deq.addFirst(temp2);
+        // } else if (temp1.num > temp2.num) {
+        // deq.addFirst(temp2);
+        // deq.addFirst(temp1);
+        // }
       }
     }
     return cnt - 1;
 
   }
 
-  // 도착 기둥에서 자기보다 작은 첫번째 원판 찾기 logN
+  // 도착 기둥에서 자기보다 작은 첫번째 원판 찾기 (logN)
   private Move findPlateOfTo(Move curr) {
-    if (last_hanoi[curr.to] == 0) return null;
-    // start_hanoi에서 끝까지 이분탐색 돌려서 curr.num보다 작은 첫번째 수 찾기
-    int lo = 0;
-    int hi = last_hanoi[curr.to];
-    while (lo < hi) {
-      int mid = lo + (hi - lo) / 2;
-      if (hanoi[curr.to][mid] >= curr.num) {
-        lo = mid + 1;
-      } else {
-        hi = mid;
-      }
-    }
-    if (last_hanoi[curr.to] <= lo) return null;
-    int next = hanoi[curr.to][lo];
-    // System.out.println("findPlateOfTo : " + next);
-    return new Move(next, curr.to, curr.temp, curr.from);
+    if (hanoi[curr.to].isEmpty()) return null;
+    Integer next = hanoi[curr.to].lower(curr.num);
+    if (next == null) return null;
+    else return new Move(next, curr.to, curr.temp, curr.from);
   }
 
   // 현재 기둥에서 자기 바로 위에 있는 원판 반환
   private Move findPlateOfFrom(Move curr) {
-    int lo = 0;
-    int hi = last_hanoi[curr.from];
-    while (lo < hi) {
-      int mid = lo + (hi - lo) / 2;
-      if (hanoi[curr.from][mid] >= curr.num) {
-        lo = mid + 1;
-      } else {
-        hi = mid;
-      }
-    }
-    if (last_hanoi[curr.from] <= lo) return null;
-    int next = hanoi[curr.from][lo];
-    // System.out.println("findPlateOfFrom : " + next);
-    return new Move(next, curr.from, curr.temp, curr.to);
+    Integer next = hanoi[curr.from].lower(curr.num);
+    if (next == null) return null;
+    else return new Move(next, curr.from, curr.temp, curr.to);
   }
 
 
@@ -205,16 +173,12 @@ class UserSolution_하노이탑 {
 
   private int findTemp(int from, int to) {
     int result = 0;
-    if ((from == 0 && to == 2) || (from == 2) && (to == 0)) result = 1;
-    if ((from == 0 && to == 1) || (from == 1) && (to == 0)) result = 2;
-    return result;
-  }
-
-  private void printHanoi() {
     for (int i = 0; i < 3; i++) {
-      System.out.println("[" + i + "] : " + Arrays.toString(hanoi[i]));
+      if (i == from) continue;
+      if (i == to) continue;
+      result = i;
     }
-    System.out.println("---------------------");
+    return result;
   }
 
   private class Move {
@@ -237,7 +201,7 @@ class UserSolution_하노이탑 {
 }
 
 
-class SWEA_pro_무질서한하노이탑 {
+class SWEA_pro_무질서한하노이탑_TS {
   private static Scanner sc;
   private static UserSolution_하노이탑 usersolution = new UserSolution_하노이탑();
   static final int MAX_N = 1000;
