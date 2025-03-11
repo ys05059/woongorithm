@@ -177,7 +177,8 @@ class SWEA_pro_성적조회 {
   private final static UserSolution_성적조회 usersolution = new UserSolution_성적조회();
 
   private static void String2Char(char[] buf, String str) {
-    for (int k = 0; k < str.length(); ++k) buf[k] = str.charAt(k);
+    for (int k = 0; k < str.length(); ++k)
+      buf[k] = str.charAt(k);
     buf[str.length()] = '\0';
   }
 
