@@ -1,3 +1,4 @@
+package shortestPath.floyd;
 
 /*
  * 모든 행성 탐사하는데 걸리는 최소 시간 계산
