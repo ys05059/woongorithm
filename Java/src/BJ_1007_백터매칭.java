@@ -1,19 +1,17 @@
 import java.io.BufferedReader;
-import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.StreamTokenizer;
-import java.util.ArrayList;
-import java.util.Arrays;
 
 class BJ_1007 {
   private static StreamTokenizer st;
   private static int T;
   private static Node[] ary;
   private static int N;
+  private static int[] visited;
+  private static double ans;
 
   public static void main(String[] args) throws IOException {
-    System.setIn(new FileInputStream("res/input.txt"));
     st = new StreamTokenizer(new BufferedReader(new InputStreamReader(System.in)));
     T = nextInt();
     while (T-- > 0) {
@@ -22,45 +20,32 @@ class BJ_1007 {
       for (int i = 0; i < N; i++) {
         ary[i] = new Node(nextInt(), nextInt());
       }
-      System.out.println("ary : " + Arrays.toString(ary));
-      comb(0, 0, new ArrayList<>());
+      visited = new int[N];
+      ans = Double.MAX_VALUE;
+      comb(0,0);
+      System.out.printf("%.6f\n",ans);
     }
 
   }
 
-  private static int comb(int start, int visited, ArrayList<Vect> vectors) {
-    visited |= 1 << start;
-    boolean flag = false;
-    for (int i = start + 1; i < N; i++) {
-      if ((visited & (1 << i)) != 0) continue;
-      if (!flag) {
-        visited |= 1 << i;
-        vectors.add(new Vect(ary[start], ary[i]));
-        flag = true;
-      } else {
-        visited = comb(i, visited, vectors);
+  private static void comb(int start, int cnt) {
+
+    if(cnt == N/2){
+      double x = 0 ,y =0;
+      for (int i = 0; i < N; i++) {
+        // visited == 1이면 뺄셈 0이면 덧셈
+        x += visited[i] == 1 ? -ary[i].x : ary[i].x;
+        y += visited[i] == 1 ? -ary[i].y : ary[i].y;
       }
-
+      ans = Math.min(ans, Math.sqrt(x*x + y*y));
+      return;
     }
-    if (visited == Math.pow(2, N) - 1) { // 끝남
-      System.out.println(Arrays.toString(vectors.toArray()));
-    }
-    return visited;
+    if(start == N) return;
 
-  }
-
-
-  private static class Vect {
-    Node start, end;
-
-    public Vect(Node s, Node e) {
-      this.start = s;
-      this.end = e;
-    }
-
-    public String toString() {
-      return "s : " + start + " e : " + end;
-    }
+    comb(start+1, cnt);
+    visited[start] = 1;
+    comb(start+1, cnt+1);
+    visited[start] = 0;
   }
 
 
@@ -86,7 +71,7 @@ class BJ_1007 {
 /*
  * 점 a -> b 벡터 중에서 N/2개의 합이 최솟값이 되도록 하기
  * N은 최대 20
- * 20C2
+ * 20C10
  * 벡터의 합의 길이를 어떻게 구하는가?
  * 벡터의 합 : (ax + bx, ay + by) = (kx,ky)
  * 이것의 길이 : kx^2 + ky ^2의 루트
